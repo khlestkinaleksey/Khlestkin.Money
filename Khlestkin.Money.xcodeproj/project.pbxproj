@@ -13,6 +13,10 @@
 		7C54C0CE2A2EA62D00597B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C54C0CC2A2EA62D00597B7E /* Main.storyboard */; };
 		7C54C0D02A2EA63000597B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C54C0CF2A2EA63000597B7E /* Assets.xcassets */; };
 		7C54C0D32A2EA63000597B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C54C0D12A2EA63000597B7E /* LaunchScreen.storyboard */; };
+		7C54C0DD2A2EAE8300597B7E /* GraphsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C54C0DC2A2EAE8300597B7E /* GraphsVC.swift */; };
+		7C54C0DF2A2EAE9D00597B7E /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C54C0DE2A2EAE9D00597B7E /* CalendarVC.swift */; };
+		7C54C0E12A2EAEB300597B7E /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C54C0E02A2EAEB300597B7E /* GoalsVC.swift */; };
+		7C54C0E32A2EAEDA00597B7E /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C54C0E22A2EAEDA00597B7E /* SettingsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		7C54C0CF2A2EA63000597B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C54C0D22A2EA63000597B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C54C0D42A2EA63000597B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C54C0DC2A2EAE8300597B7E /* GraphsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsVC.swift; sourceTree = "<group>"; };
+		7C54C0DE2A2EAE9D00597B7E /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		7C54C0E02A2EAEB300597B7E /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
+		7C54C0E22A2EAEDA00597B7E /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				7C54C0C62A2EA62D00597B7E /* AppDelegate.swift */,
 				7C54C0C82A2EA62D00597B7E /* SceneDelegate.swift */,
 				7C54C0CA2A2EA62D00597B7E /* ViewController.swift */,
+				7C54C0DC2A2EAE8300597B7E /* GraphsVC.swift */,
+				7C54C0DE2A2EAE9D00597B7E /* CalendarVC.swift */,
+				7C54C0E02A2EAEB300597B7E /* GoalsVC.swift */,
+				7C54C0E22A2EAEDA00597B7E /* SettingsVC.swift */,
 				7C54C0CC2A2EA62D00597B7E /* Main.storyboard */,
 				7C54C0CF2A2EA63000597B7E /* Assets.xcassets */,
 				7C54C0D12A2EA63000597B7E /* LaunchScreen.storyboard */,
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C54C0CB2A2EA62D00597B7E /* ViewController.swift in Sources */,
+				7C54C0DF2A2EAE9D00597B7E /* CalendarVC.swift in Sources */,
 				7C54C0C72A2EA62D00597B7E /* AppDelegate.swift in Sources */,
+				7C54C0E12A2EAEB300597B7E /* GoalsVC.swift in Sources */,
+				7C54C0E32A2EAEDA00597B7E /* SettingsVC.swift in Sources */,
 				7C54C0C92A2EA62D00597B7E /* SceneDelegate.swift in Sources */,
+				7C54C0DD2A2EAE8300597B7E /* GraphsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
