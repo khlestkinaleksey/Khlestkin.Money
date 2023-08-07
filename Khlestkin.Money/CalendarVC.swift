@@ -13,6 +13,9 @@ class CalendarVC: UIViewController {
         super.viewDidLoad()
 
         print("hello")
+        print("hello")
+        print("hello")
+        print("hello")
         // Do any additional setup after loading the view.
     }
     
